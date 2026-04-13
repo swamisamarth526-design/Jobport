@@ -1,0 +1,13 @@
+{
+  "name": "jobportal-yt-main",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "dev": "npm --prefix frontend run dev",
+    "start": "node backend/index.js"
+  }
+}
